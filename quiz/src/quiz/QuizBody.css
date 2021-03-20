@@ -1,0 +1,51 @@
+.question_block, .score__screen {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 600px;
+  height: 350px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: black;
+  opacity: 0.750;
+  color: white;
+}
+
+.quiz__body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.question_text {
+  height: 100px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 26px;
+}
+
+.question{
+  font-size: 22px
+}
+
+.answer, .reset {
+  display: flex;
+  width: 150px;
+  height: 40px;
+  padding: 5px;
+  margin: 5px;
+  text-align: left;
+  border: 1px solid green;
+  background-color: rgb(6, 109, 24);
+  border-radius: 10px;
+  align-items: center;
+  color: white;
+  font-size: 18px;
+}
+
+.answer:hover {
+  background-color: rgb(51, 105, 60);
+}
